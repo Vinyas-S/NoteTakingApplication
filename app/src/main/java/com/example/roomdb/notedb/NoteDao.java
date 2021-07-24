@@ -17,10 +17,10 @@ public interface NoteDao {
     long insertNote(Note note);
 
     @Update
-    void updateNotes(Note note);
+    void updateNote(Note note);
 
     @Delete
-    void deleteNotes(Note note);
+    void deleteNote(Note note);
 
     @Delete
     void deleteNotes(Note... note);

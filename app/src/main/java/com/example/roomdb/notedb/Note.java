@@ -60,7 +60,7 @@ public class Note implements Serializable {
     public String getTitle(){
         return  title;
     }
-    public  String setTitle(String title){
+    public  void setTitle(String title){
         this.title=title;
     }
 
